@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.box {
+  width: 200px; height: 200px; background-color: black;
+  transition: all .2s;
+}
+.box.active {
+  background-color: #f90;
+}
