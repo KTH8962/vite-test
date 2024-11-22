@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from 'react';
+import { useReducer, useState } from 'react';
 
 type Action = {type: 'plus'} | {type: 'minus'};
 const initNum:number = 100;

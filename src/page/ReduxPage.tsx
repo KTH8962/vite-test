@@ -1,6 +1,6 @@
-import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { login, logout, RootState, toggleClass } from '../redux/reducer';
+import { login, logout, toggleClass } from '../redux/reducer';
+import { RootState } from '../redux';
 
 function ReduxPage() {
     const dispatch = useDispatch();

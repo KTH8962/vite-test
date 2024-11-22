@@ -1,4 +1,3 @@
-import React from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { counterState } from '../Recoil/Atoms';
 import { doubledState } from '../Recoil/Selector';
